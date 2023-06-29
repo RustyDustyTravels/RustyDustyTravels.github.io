@@ -5,6 +5,8 @@ Website to describe the good (and bad) travel experiences we've had.
 2. [Create a new organization](
 https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch
 ) that will be the page name
-3. [Install Ruby](https://jekyllrb.com/docs/installation/windows/)
+3. [Install Ruby](https://jekyllrb.com/docs/installation/windows/) [note1]
 3. Follow https://pages.github.com/ in setting up Hello World
 4. Refine page by [using jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
+
+note1: gem update failed on readline-ext.  See \var\lib\gems\3.0.0\extensions\x86_64-linux\3.0.0\readline-ext-0.1.5\mkmf.log
