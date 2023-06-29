@@ -5,7 +5,7 @@ Website to describe the good (and bad) travel experiences we've had.
 2. [Create a new organization](
 https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch
 ) that will be the page name
-3. [Install Ruby](https://jekyllrb.com/docs/installation/windows/) [note1]
+3. [Install Ruby](https://jekyllrb.com/docs/installation/windows/) (used WSL install method) [note1]
 3. Follow [Creating Github Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) [note2]
 4. [Test site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 5. Refine page by [using jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
