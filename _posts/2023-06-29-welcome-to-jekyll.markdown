@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Rusty Dusty Travels"
 date:   2023-06-29 17:11:47 -0500
 categories: jekyll update
 ---
