@@ -12,7 +12,7 @@ https://docs.github.com/en/organizations/collaborating-with-groups-in-organizati
 
 NOTE: Before the `gem update` and `bundle install` commands, perform the following:
 
-Edit `.profile` and add the following lines for Ruby 3.0
+Edit `~/.profile` and add the following lines for Ruby 3.0
 
 ```
 # set PATH so it includes user's RUBY bin if it exists
