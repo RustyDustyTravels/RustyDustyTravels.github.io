@@ -5,11 +5,33 @@ Website to describe the good (and bad) travel experiences we've had.
 2. [Create a new organization](
 https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch
 ) that will be the page name
-3. [Install Ruby](https://jekyllrb.com/docs/installation/windows/) (used WSL install method) [note1]
-3. Follow [Creating Github Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) [note2]
+3. [Install Ruby](https://jekyllrb.com/docs/installation/windows/) (used WSL install method) [note]
+3. Follow [Creating Github Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 4. [Test site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 5. Refine page by [using jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 
-note1: gem update failed on readline-ext.  See \var\lib\gems\3.0.0\extensions\x86_64-linux\3.0.0\readline-ext-0.1.5\mkmf.log
+NOTE: Before the `gem update` and `bundle install` commands, perform the following:
 
-note2: had to run `bundle install` as sudo even though it said not to due to access of `/var/lib/gems/3.0.0/cache/`
+Edit `.profile` and add the following lines for Ruby 3.0
+
+```
+# set PATH so it includes user's RUBY bin if it exists
+if [ -d "$HOME/.local/share/gem/ruby/3.0.0/bin" ] ; then
+    PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH
+fi
+```
+
+Default `gem` command to `gem --user-install` to install to `~/.local/share/gem`
+
+```
+echo "gem: --user-install" >> ~/.gemrc
+```
+
+Default `bundle` command to `bundle --deployment` so installs land in `./vendor/bundle` instead of global system directorys
+
+```
+bundle config set --local deployment 'true'
+```
+
+`gem update` did failed on some gems like `readline-ext`.  See `$HOME/.local/share/gem/ruby/3.0.0/extensions/x86_64-linux/3.0.0/readline-ext-0.1.5/mkmf.log` 
+
