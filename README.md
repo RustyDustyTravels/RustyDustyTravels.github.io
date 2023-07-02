@@ -1,6 +1,8 @@
 # RustyDustyTravels.github.io
 Website to describe the good (and bad) travel experiences we've had.
 
+[![asciicast](https://asciinema.org/a/594410.svg)](https://asciinema.org/a/594410)
+
 1. Jump through Lesson \#8 on [security-id](https://github.com/brianddk/security-id#readme) repo
 2. [Create a new organization](
 https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch
