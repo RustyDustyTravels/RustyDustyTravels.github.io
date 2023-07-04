@@ -39,4 +39,6 @@ bundle config set --local deployment 'true'
 
 ## Videos
 
-For video files, I suppose the [following discussion](https://github.com/mmistakes/minimal-mistakes/discussions/101) would apply
+For video files, I suppose the [following discussion](https://github.com/mmistakes/minimal-mistakes/discussions/101) would apply.
+
+For image files, the standard [img tag](https://walletscrutiny.com/?verdict=reproducible&platform=hardware) would work, though the standard [markdown format](https://github.github.com/gfm/#images) is likely fine.
