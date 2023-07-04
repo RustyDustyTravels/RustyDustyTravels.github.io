@@ -37,3 +37,6 @@ bundle config set --local deployment 'true'
 
 `gem update` did failed on some gems like `readline-ext`.  See `$HOME/.local/share/gem/ruby/3.0.0/extensions/x86_64-linux/3.0.0/readline-ext-0.1.5/mkmf.log` 
 
+## Videos
+
+For video files, I suppose the [following discussion](https://github.com/mmistakes/minimal-mistakes/discussions/101) would apply
